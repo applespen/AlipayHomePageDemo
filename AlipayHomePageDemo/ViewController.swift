@@ -28,7 +28,7 @@ class ViewController: UIViewController,UIScrollViewDelegate,UIGestureRecognizerD
         scroll.scrollIndicatorInsets = UIEdgeInsets(top: 155, left: 0, bottom: 0, right: 0)
         return scroll
     }()
-    
+    //nihao
     lazy var navView: UIView = {
         
         let view = UIView(frame: CGRect(x: 0, y: 0, width: SCREEN_WIDTH, height: 64))
