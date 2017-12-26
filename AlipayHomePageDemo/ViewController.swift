@@ -53,7 +53,7 @@ class ViewController: UIViewController,UIScrollViewDelegate,UIGestureRecognizerD
             right: 0
         )
         payButton.sizeToFit()
-        
+        // 提交
         var newFrame = payButton.frame
         newFrame.origin.y = 20 + 10
         newFrame.origin.x = 10
