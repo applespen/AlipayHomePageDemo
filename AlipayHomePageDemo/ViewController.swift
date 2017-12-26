@@ -62,6 +62,8 @@ class ViewController: UIViewController,UIScrollViewDelegate,UIGestureRecognizerD
         
         view.addSubview(payButton)
         
+        //曹尼玛啊
+        
         return view
         
     }()
