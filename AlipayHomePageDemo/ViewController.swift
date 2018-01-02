@@ -265,7 +265,7 @@ class ViewController: UIViewController,UIScrollViewDelegate,UIGestureRecognizerD
             newFrame = self.mainTableView.frame
             newFrame.origin.y = y + topOffsetY
             self.mainTableView.frame = newFrame
-            
+            ///sad防守打法
             //偏移量给到tableview，tableview自己来滑动
             self.mainTableView.setScrollViewContentOffSet(point: CGPoint(x: 0, y: y))
             
