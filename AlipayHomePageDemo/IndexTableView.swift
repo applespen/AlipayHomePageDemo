@@ -21,7 +21,7 @@ class IndexTableView: UITableView,UITableViewDelegate,UITableViewDataSource {
     
     var changeContentSize:((_ contentSize:CGSize)->())?
 
-    //阿斯蒂芬第三方水电费
+   
     override init(frame: CGRect, style: UITableViewStyle) {
         super.init(frame: frame, style: style)
         self.delegate = self
